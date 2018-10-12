@@ -36,9 +36,11 @@ Arm 1, Arm 2 ... Arm N == Option 1, Option 2 ... Option N
 
 ```History
 
-Bandit algorithms were originally invented to explain how a gambler would try to make as much money as possible in a hypothetical casino.
+Bandit algorithms were originally invented to explain how a gambler would try to make as much money as 
+possible in a hypothetical casino.
 In the hypothetical casino, there is only one type of game : a slot machine
-A slot machine is also called a one-armed bandit (arm probably referring to the stick) because of its propensity(tendency) to take your money.
+A slot machine is also called a one-armed bandit (arm probably referring to the stick) because of its 
+propensity(tendency) to take your money.
 
 The Multiarmed Bandit Problem is therefore referring to a giant slot machine that has many arms.
 ```
@@ -129,7 +131,8 @@ First increments the corresponding counts field, then updates the values corresp
 ```
 Why weighted average?
 
-So that single observations mean less and less to the algorithm when we already have a lot experience with any specific option.
+So that single observations mean less and less to the algorithm when we already have a lot experience 
+with any specific option.
 ```
 
 ### Thinking Critically about the epsilon-Greedy algorithm
