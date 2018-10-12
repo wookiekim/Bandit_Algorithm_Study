@@ -109,8 +109,8 @@ def select_arm(self):
     return random.randrange(len(self.values))
 ```
 The above implementation can be explained in two parts.
-  1. A coin is flipped (random.random()) to see if the best arm will be chosen (exploit)
-  2. If coin comes up tails (random() <= epsilon) then an arm is selected completely at random.
+  - A coin is flipped (random.random()) to see if the best arm will be chosen (exploit)
+  - If coin comes up tails (random() <= epsilon) then an arm is selected completely at random.
 
 2. ***update***
 
