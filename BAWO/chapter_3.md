@@ -48,7 +48,7 @@ The Multiarmed Bandit Problem is therefore referring to a giant slot machine tha
 Reward : Measure of success (as described in the preface)
 
 Therefore, **the abstract idea of a bandit problem**:
-* We're facing a complicated slot machine, called a bandit, that has an unchangeable set of N arms that we can pull on.
+* We're facing a complicated slot machine, called a bandit, that has an **unchangeable** set of N arms that we can pull on.
 * When pulled, any given arm will output a reward. But these rewards aren't **reliable**, which is why we're gambling. Arm 1 might give us 1 unit of reward only 1 % of the time, while Arm 2 might give us 1 unit of reward only 3% of the time. ANy specific pull of any specific arm is risky.
 * Not only each pull of an arm is risky, we don't start off knowing what the reward rates are for any of the arms. We have to figure out experimentally by actually pulling on the unknown arms.
   * Need to cope with the risk by figuring out which arm has the highest average reward.
