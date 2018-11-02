@@ -142,18 +142,18 @@ Full comparisons between Softmax Algorithm and epsilon-Greedy algorithm in the n
 Just a comparison of how Softmax Algorithm performs compared to the epsilon-Greedy algorithms using the Approaches used in the previous chapter.
 
 Approach 1: Accuracy of the Softmax Algorithm (tendency to choose the best arm)
-(((((Image)))))
+![](images/5.1.png)
 
 It can be seen that it starts to select the right arm 100% of the time if waited long enough.
 * epsilon-Greedy never got past the intrinsic errors caused by the purely random strategy it used.
 
 Approach 2: Performance of the Softmax Algorithm (average reward per choice)
-((((Image))))
+![](images/5.2.png)
 
 Similar results to APproach 1, except that the rewards are capped at 0.9 instead of 1.0 because 0.9 is the expected rate of reward associated with the best arm in our test suite.
 
 Approach 3: Cumulative Reward of the Softmax Algorithm
-(((Image)))
+![](images/5.3.png)
 
 Lowest temperature setting being used (0.1) gives the best results nearly right from the start
 * Typical in settings in which there are clear differences between arms.
@@ -235,7 +235,9 @@ def update(self, chosen_arm, reward):
 
 Results of the annealing Softmax Algorithm using the same approaches:
 
-((image 1 ~ 3))
+![](images/5.4.png)
+![](images/5.5.png)
+![](images/5.6.png)
 
 The system doesn't reach perfect performance as quickly as the best of our hard-coded temperature settings in the previous set of graphs.
 * but reaches peak performance much faster than the worse of our settings

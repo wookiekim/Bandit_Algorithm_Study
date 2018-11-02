@@ -174,7 +174,7 @@ Approach 1: Track the probability of choosing the best arm
 * The probability that the algorithmpicks the best arm should go over time
   * else no evidence that the algorithm is learning anything about the values of the arms.
 
-(((((((IMAGE)))))))
+![](images/4.2.png)
 
 x-axis: number of times the algorithm has been able to pull on any of the five arms that are available.
 
@@ -189,14 +189,14 @@ Each setting of epsilon produce a separate curve.
   * but eventually reaches a higher peak performance level.
 
 Approach 2: Track the Average Reward at Each Point in Time.
-(((IMAGE)))
+![](images/4.3.png)
 
 Similar Results to approach 1:
 * as the rewards are so far apart
 * the rewards are all 0's or 1's
 
 Approach 3: Track the Cumulative Reward at Each point in Time.
-(((Image)))
+![](images/4.4.png)
 
 Curves for the low value of epsilon = 0.1 and the high value of epsilon = 0.5 intersect after about 130 rounds.
 * Explore -> Exploit sequence is really better.
