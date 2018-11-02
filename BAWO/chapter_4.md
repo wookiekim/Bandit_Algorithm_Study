@@ -12,7 +12,7 @@ Bandit algorithms are not like standard machine learning tools
 
 Therefore, a complicated feedback cycle as such:
 
-((((((((IMAGE))))))))
+![](images/4.1.png)
 
 * Bandit Algorithm
 * Simulation of the bandit's arms that the algorithm has to select between
