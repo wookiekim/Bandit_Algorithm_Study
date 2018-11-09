@@ -3,8 +3,8 @@
 ### Introducing the UCB Algorithm
 
 Algorithms presented so far (epsilon-Greedy, Softmax):
-* don't keep track of how much they know about the arms available to the,
-* only about **how much rewad they've gotten from the arms**.
+* don't keep track of how much they know about the arms available to them,
+* only about **how much reward they've gotten from the arms**.
   * will UNDERexplore options whose initial experiences were not rewarding
 
 **UCB**
